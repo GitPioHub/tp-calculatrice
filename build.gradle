@@ -141,3 +141,11 @@ jacoco {
     toolVersion = "0.8.3"
     reportsDir = file("$project.buildDir/reports/jacoco")
 }
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        html.enabled true
+        csv.enabled true
+    }
+}
