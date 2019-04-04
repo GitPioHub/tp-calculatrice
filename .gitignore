@@ -1,6 +1,4 @@
-.gradle
-.bin
-.lock
+.gradle/
 /build/
 !gradle/wrapper/gradle-wrapper.jar
 
